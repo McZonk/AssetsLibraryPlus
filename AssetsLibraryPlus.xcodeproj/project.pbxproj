@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		503220DB186DB69300D95640 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503220DA186DB69300D95640 /* Foundation.framework */; };
+		503220E0186DB69300D95640 /* AssetsLibraryPlus.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 503220DF186DB69300D95640 /* AssetsLibraryPlus.h */; };
+		5032210C186DB7D900D95640 /* ALAssetRepresentation+ALPData.m in Sources */ = {isa = PBXBuildFile; fileRef = 50322105186DB7D900D95640 /* ALAssetRepresentation+ALPData.m */; };
+		5032210D186DB7D900D95640 /* ALAssetsLibrary+ALPGroupWithAlbumName.m in Sources */ = {isa = PBXBuildFile; fileRef = 50322107186DB7D900D95640 /* ALAssetsLibrary+ALPGroupWithAlbumName.m */; };
+		5032210E186DB7D900D95640 /* ALAssetsLibrary+ALPLastAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 50322109186DB7D900D95640 /* ALAssetsLibrary+ALPLastAsset.m */; };
+		5032210F186DB7D900D95640 /* ALAssetsLibrary+ALPWriteToAssetsGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5032210B186DB7D900D95640 /* ALAssetsLibrary+ALPWriteToAssetsGroup.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		503220D5186DB69300D95640 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				503220E0186DB69300D95640 /* AssetsLibraryPlus.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		503220D7186DB69300D95640 /* libAssetsLibraryPlus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAssetsLibraryPlus.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		503220DA186DB69300D95640 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		503220DE186DB69300D95640 /* AssetsLibraryPlus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AssetsLibraryPlus-Prefix.pch"; sourceTree = "<group>"; };
+		503220DF186DB69300D95640 /* AssetsLibraryPlus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssetsLibraryPlus.h; sourceTree = "<group>"; };
+		503220E8186DB69300D95640 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		503220EB186DB69300D95640 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		50322104186DB7D900D95640 /* ALAssetRepresentation+ALPData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetRepresentation+ALPData.h"; sourceTree = "<group>"; };
+		50322105186DB7D900D95640 /* ALAssetRepresentation+ALPData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetRepresentation+ALPData.m"; sourceTree = "<group>"; };
+		50322106186DB7D900D95640 /* ALAssetsLibrary+ALPGroupWithAlbumName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+ALPGroupWithAlbumName.h"; sourceTree = "<group>"; };
+		50322107186DB7D900D95640 /* ALAssetsLibrary+ALPGroupWithAlbumName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+ALPGroupWithAlbumName.m"; sourceTree = "<group>"; };
+		50322108186DB7D900D95640 /* ALAssetsLibrary+ALPLastAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+ALPLastAsset.h"; sourceTree = "<group>"; };
+		50322109186DB7D900D95640 /* ALAssetsLibrary+ALPLastAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+ALPLastAsset.m"; sourceTree = "<group>"; };
+		5032210A186DB7D900D95640 /* ALAssetsLibrary+ALPWriteToAssetsGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+ALPWriteToAssetsGroup.h"; sourceTree = "<group>"; };
+		5032210B186DB7D900D95640 /* ALAssetsLibrary+ALPWriteToAssetsGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+ALPWriteToAssetsGroup.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		503220D4186DB69300D95640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503220DB186DB69300D95640 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		503220CE186DB69300D95640 = {
+			isa = PBXGroup;
+			children = (
+				503220DC186DB69300D95640 /* AssetsLibraryPlus */,
+				503220D9186DB69300D95640 /* Frameworks */,
+				503220D8186DB69300D95640 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		503220D8186DB69300D95640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				503220D7186DB69300D95640 /* libAssetsLibraryPlus.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		503220D9186DB69300D95640 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				503220DA186DB69300D95640 /* Foundation.framework */,
+				503220E8186DB69300D95640 /* XCTest.framework */,
+				503220EB186DB69300D95640 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		503220DC186DB69300D95640 /* AssetsLibraryPlus */ = {
+			isa = PBXGroup;
+			children = (
+				503220DE186DB69300D95640 /* AssetsLibraryPlus-Prefix.pch */,
+				503220DF186DB69300D95640 /* AssetsLibraryPlus.h */,
+				50322104186DB7D900D95640 /* ALAssetRepresentation+ALPData.h */,
+				50322105186DB7D900D95640 /* ALAssetRepresentation+ALPData.m */,
+				50322106186DB7D900D95640 /* ALAssetsLibrary+ALPGroupWithAlbumName.h */,
+				50322107186DB7D900D95640 /* ALAssetsLibrary+ALPGroupWithAlbumName.m */,
+				50322108186DB7D900D95640 /* ALAssetsLibrary+ALPLastAsset.h */,
+				50322109186DB7D900D95640 /* ALAssetsLibrary+ALPLastAsset.m */,
+				5032210A186DB7D900D95640 /* ALAssetsLibrary+ALPWriteToAssetsGroup.h */,
+				5032210B186DB7D900D95640 /* ALAssetsLibrary+ALPWriteToAssetsGroup.m */,
+			);
+			name = AssetsLibraryPlus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		503220D6186DB69300D95640 /* AssetsLibraryPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 503220FA186DB69300D95640 /* Build configuration list for PBXNativeTarget "AssetsLibraryPlus" */;
+			buildPhases = (
+				503220D3186DB69300D95640 /* Sources */,
+				503220D4186DB69300D95640 /* Frameworks */,
+				503220D5186DB69300D95640 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssetsLibraryPlus;
+			productName = AssetsLibraryPlus;
+			productReference = 503220D7186DB69300D95640 /* libAssetsLibraryPlus.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		503220CF186DB69300D95640 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = McZonk;
+			};
+			buildConfigurationList = 503220D2186DB69300D95640 /* Build configuration list for PBXProject "AssetsLibraryPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 503220CE186DB69300D95640;
+			productRefGroup = 503220D8186DB69300D95640 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				503220D6186DB69300D95640 /* AssetsLibraryPlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		503220D3186DB69300D95640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5032210E186DB7D900D95640 /* ALAssetsLibrary+ALPLastAsset.m in Sources */,
+				5032210F186DB7D900D95640 /* ALAssetsLibrary+ALPWriteToAssetsGroup.m in Sources */,
+				5032210D186DB7D900D95640 /* ALAssetsLibrary+ALPGroupWithAlbumName.m in Sources */,
+				5032210C186DB7D900D95640 /* ALAssetRepresentation+ALPData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		503220F8186DB69300D95640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		503220F9186DB69300D95640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		503220FB186DB69300D95640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AssetsLibraryPlus.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AssetsLibraryPlus-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		503220FC186DB69300D95640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AssetsLibraryPlus.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AssetsLibraryPlus-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		503220D2186DB69300D95640 /* Build configuration list for PBXProject "AssetsLibraryPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503220F8186DB69300D95640 /* Debug */,
+				503220F9186DB69300D95640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		503220FA186DB69300D95640 /* Build configuration list for PBXNativeTarget "AssetsLibraryPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503220FB186DB69300D95640 /* Debug */,
+				503220FC186DB69300D95640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 503220CF186DB69300D95640 /* Project object */;
+}

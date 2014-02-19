@@ -14,7 +14,7 @@
 		return nil;
 	}
 	
-	return [self dataInRange:NSMakeRange(0, size) error:error];
+	return [self dataInRange:NSMakeRange(0, (NSUInteger)size) error:error];
 }
 
 - (NSData *)dataInRange:(NSRange)range error:(NSError **)error

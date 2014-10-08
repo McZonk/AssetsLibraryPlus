@@ -13,6 +13,7 @@
 		5032210D186DB7D900D95640 /* ALAssetsLibrary+ALPGroupWithAlbumName.m in Sources */ = {isa = PBXBuildFile; fileRef = 50322107186DB7D900D95640 /* ALAssetsLibrary+ALPGroupWithAlbumName.m */; };
 		5032210E186DB7D900D95640 /* ALAssetsLibrary+ALPLastAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 50322109186DB7D900D95640 /* ALAssetsLibrary+ALPLastAsset.m */; };
 		5032210F186DB7D900D95640 /* ALAssetsLibrary+ALPWriteToAssetsGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5032210B186DB7D900D95640 /* ALAssetsLibrary+ALPWriteToAssetsGroup.m */; };
+		506CE02119E583D200A0D8BC /* AVPDummyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 506CE02019E583D200A0D8BC /* AVPDummyObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		50322109186DB7D900D95640 /* ALAssetsLibrary+ALPLastAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+ALPLastAsset.m"; sourceTree = "<group>"; };
 		5032210A186DB7D900D95640 /* ALAssetsLibrary+ALPWriteToAssetsGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+ALPWriteToAssetsGroup.h"; sourceTree = "<group>"; };
 		5032210B186DB7D900D95640 /* ALAssetsLibrary+ALPWriteToAssetsGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+ALPWriteToAssetsGroup.m"; sourceTree = "<group>"; };
+		506CE02019E583D200A0D8BC /* AVPDummyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPDummyObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				50322109186DB7D900D95640 /* ALAssetsLibrary+ALPLastAsset.m */,
 				5032210A186DB7D900D95640 /* ALAssetsLibrary+ALPWriteToAssetsGroup.h */,
 				5032210B186DB7D900D95640 /* ALAssetsLibrary+ALPWriteToAssetsGroup.m */,
+				506CE02019E583D200A0D8BC /* AVPDummyObject.m */,
 			);
 			name = AssetsLibraryPlus;
 			sourceTree = "<group>";
@@ -127,7 +130,7 @@
 		503220CF186DB69300D95640 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = McZonk;
 			};
 			buildConfigurationList = 503220D2186DB69300D95640 /* Build configuration list for PBXProject "AssetsLibraryPlus" */;
@@ -156,6 +159,7 @@
 				5032210F186DB7D900D95640 /* ALAssetsLibrary+ALPWriteToAssetsGroup.m in Sources */,
 				5032210D186DB7D900D95640 /* ALAssetsLibrary+ALPGroupWithAlbumName.m in Sources */,
 				5032210C186DB7D900D95640 /* ALAssetRepresentation+ALPData.m in Sources */,
+				506CE02119E583D200A0D8BC /* AVPDummyObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +170,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -195,6 +198,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -203,7 +207,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
